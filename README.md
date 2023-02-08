@@ -4,7 +4,7 @@ Employment portfolio for Hiroyuki "Hiro" Kagei using a performant, accessible, p
 
 ### <a href="https://hkagei.github.io/hkagei-new-employment-portfolio/">Click Here To Access Portfolio</a>
 
-![Project Preview](/README_images/hkagei-portfolio.jpg)
+![Project Preview](https://i.imgur.com/XR7zihM.jpg)
 
 ## License
 
