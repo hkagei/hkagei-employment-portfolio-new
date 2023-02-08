@@ -6,7 +6,8 @@ import {
   FaReact,
   FaGitAlt,
   FaGithubSquare,
-  FaLink,
+  // FaLinkedIn,
+  FaLinkedin,
 } from "react-icons/fa";
 import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
 
@@ -14,8 +15,8 @@ import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
 import Logo from "./images/logo.svg";
 
 // Hero Images (add your images to the /images directory with the same names)
-import HeroLight from "./images/hero-light.jpg";
-import HeroDark from "./images/hero-dark.jpg";
+import HeroLight from "./images/DSC_1869.jpg";
+import HeroDark from "./images/DSC_8740.jpg";
 // If you change the import names above then you need to change the export names below
 export { HeroLight as Light };
 export { HeroDark as Dark };
@@ -27,14 +28,14 @@ export { HeroDark as Dark };
 export const githubUsername = "hkagei";
 
 // Blog link icon (imported above)
-export const Blog = <FaLink />;
+export const Blog = <FaLinkedin />;
 
 /* About Me
  **************************************************************
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, Bootstrap, Redux, and the GitHub REST API.";
+  "As an innovative problem solver passionate about building websites and developing apps, I have a focus on mobile-first design and development. With each project, my aim is to best engage my audience for an impactful user experience.";
 
 /* Skills
  ************************************************************** 
@@ -64,12 +65,12 @@ export const skillData = [
   {
     id: 5,
     skill: <FaReact className="display-4" />,
-    name: "React",
+    name: "MERN",
   },
   {
     id: 6,
     skill: <SiStyledcomponents className="display-4" />,
-    name: "Styled Components",
+    name: "SQL",
   },
   {
     id: 7,
