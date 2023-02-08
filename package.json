@@ -6,7 +6,6 @@
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.2",
     "bootstrap": "^5.2.3",
-    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
@@ -22,6 +21,7 @@
     "workbox-strategies": "^6.5.4"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "react-scripts": "^5.0.1"
   },
   "scripts": {
