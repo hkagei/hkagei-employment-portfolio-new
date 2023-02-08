@@ -6,7 +6,6 @@ Employment portfolio for Hiroyuki "Hiro" Kagei using a performant, accessible, p
 
 ![Project Preview](/README_images/hkagei-portfolio.jpg)
 
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
