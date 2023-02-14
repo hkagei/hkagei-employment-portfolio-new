@@ -23,7 +23,7 @@ const StyledCardComponent = styled.div`
   }
 `;
 
-export default function StyledCard({ theme, image, name, description, url }) {
+export default function StyledCard({ theme, image, name, description, Repourl, url }) {
   return (
     <StyledCardComponent>
       <Card bg={theme === "light" ? "white" : "dark"}>
@@ -36,6 +36,7 @@ export default function StyledCard({ theme, image, name, description, url }) {
         <Card.Body className="overflow-auto text-center">
           <Card.Title>{name}</Card.Title>
           <Card.Text>{description}</Card.Text>
+          <Card.Link href={Repourl}>View Project</Card.Link>
         </Card.Body>
         <Card.Footer className="text-center">
           <Card.Link href={url}>
