@@ -96,7 +96,7 @@ export const resume = "https://docs.google.com/document/d/1Lz00IcBKyE825MLFjwkKV
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["workday-scheduler", "MERN-Challenge", "Hiros-budget-tracker"];
+export const filteredProjects = ["MERN-Challenge", "workday-scheduler", "Hiros-budget-tracker"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
