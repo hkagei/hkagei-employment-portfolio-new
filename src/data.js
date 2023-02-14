@@ -12,7 +12,10 @@ import {
 import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+// import Logo from "./images/logo.svg";
+import Image1 from "./images/book-search.png"
+import Image2 from "./images/budget-tracker.png"
+import Image3 from "./images/workday-scheduler.png"
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/DSC_1869.jpg";
@@ -101,9 +104,17 @@ export const filteredProjects = ["workday-scheduler", "MERN-Challenge", "Hiros-b
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
   {
-    name: "example-1",
-    image: Logo,
+    name: "MERN-Challenge",
+    image: Image1,
   },
+  {
+    name: "Hiros-budget-tracker",
+    image: Image2
+  },
+  {
+    name: "workday-scheduler",
+    image: Image3
+  }
 ];
 
 /* Contact Info
