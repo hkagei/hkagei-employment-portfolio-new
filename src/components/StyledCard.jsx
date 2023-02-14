@@ -36,7 +36,6 @@ export default function StyledCard({ theme, image, name, description, Repourl, u
         <Card.Body className="overflow-auto text-center">
           <Card.Title>{name}</Card.Title>
           <Card.Text>{description}</Card.Text>
-          <Card.Link href={Repourl}>View Project</Card.Link>
         </Card.Body>
         <Card.Footer className="text-center">
           <Card.Link href={url}>

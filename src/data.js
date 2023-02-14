@@ -17,6 +17,7 @@ import Image1 from "./images/book-search.png"
 import Image2 from "./images/budget-tracker.png"
 import Image3 from "./images/workday-scheduler.png"
 
+
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/DSC_1869.jpg";
 import HeroDark from "./images/DSC_8740.jpg";
@@ -106,14 +107,17 @@ export const projectCardImages = [
   {
     name: "MERN-Challenge",
     image: Image1,
+    link: "https://lit-taiga-11377.herokuapp.com/"
   },
   {
     name: "Hiros-budget-tracker",
-    image: Image2
+    image: Image2,
+    link: "https://guarded-garden-74034.herokuapp.com/"
   },
   {
     name: "workday-scheduler",
-    image: Image3
+    image: Image3,
+    link: "https://hkagei.github.io/workday-scheduler/"
   }
 ];
 
