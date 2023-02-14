@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hkagei-new-employment-portfolio/static/css/main.deb5c223.css",
-    "main.js": "/hkagei-new-employment-portfolio/static/js/main.be22e039.js",
+    "main.js": "/hkagei-new-employment-portfolio/static/js/main.5c55e5fc.js",
     "static/media/DSC_1869.jpg": "/hkagei-new-employment-portfolio/static/media/DSC_1869.ec543f48b2c35a66c00a.jpg",
     "static/media/book-search.png": "/hkagei-new-employment-portfolio/static/media/book-search.0149644dcc8d2ce612a1.png",
     "static/media/DSC_8740.jpg": "/hkagei-new-employment-portfolio/static/media/DSC_8740.9f9965e7dc8c7ecaf1ae.jpg",
@@ -12,10 +12,10 @@
     "static/media/logo.svg": "/hkagei-new-employment-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/hkagei-new-employment-portfolio/index.html",
     "main.deb5c223.css.map": "/hkagei-new-employment-portfolio/static/css/main.deb5c223.css.map",
-    "main.be22e039.js.map": "/hkagei-new-employment-portfolio/static/js/main.be22e039.js.map"
+    "main.5c55e5fc.js.map": "/hkagei-new-employment-portfolio/static/js/main.5c55e5fc.js.map"
   },
   "entrypoints": [
     "static/css/main.deb5c223.css",
-    "static/js/main.be22e039.js"
+    "static/js/main.5c55e5fc.js"
   ]
 }
