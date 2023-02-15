@@ -27,7 +27,7 @@ export default function StyledCard({ theme, image, name, description, imageURL, 
   return (
     <StyledCardComponent>
       <Card bg={theme === "light" ? "white" : "dark"}>
-        <Card.Img href={imageURL}
+        <Card.Img
           variant="top"
           src={image ? image : GH}
           alt={name}

@@ -111,17 +111,17 @@ export const projectCardImages = [
   {
     name: "MERN-Challenge",
     image: Image1,
-    imageURL: link1
+    // imageURL: link1
   },
   {
     name: "Hiros-budget-tracker",
     image: Image2,
-    imageURL: link2
+    // imageURL: link2
   },
   {
     name: "workday-scheduler",
     image: Image3,
-    imageURL: link3
+    // imageURL: link3
   }
 ];
 

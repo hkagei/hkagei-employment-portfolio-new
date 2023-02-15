@@ -76,6 +76,7 @@ export default function Projects() {
                   name,
                   description,
                   html_url,
+                  imageURL,
                 }) {
                   return (
                     <Col key={id}>
@@ -85,7 +86,7 @@ export default function Projects() {
                         name={name}
                         description={description}
                         url={html_url}
-                        // Repourl={}
+                        imageURL={imageURL}
                       />
                     </Col>
                   );
