@@ -111,17 +111,17 @@ export const projectCardImages = [
   {
     name: "MERN-Challenge",
     image: Image1,
-    // imageURL: link1
+    imageURL: <fa href="https://lit-taiga-11377.herokuapp.com/"></fa>
   },
   {
     name: "Hiros-budget-tracker",
     image: Image2,
-    // imageURL: link2
+    imageURL: <fa href="https://guarded-garden-74034.herokuapp.com/"></fa>
   },
   {
     name: "workday-scheduler",
     image: Image3,
-    // imageURL: link3
+    imageURL: <fa href="https://hkagei.github.io/workday-scheduler/"></fa>
   }
 ];
 
