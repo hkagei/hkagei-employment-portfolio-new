@@ -53,7 +53,7 @@ export default function Projects() {
             <Title>
               <h2>Projects</h2>
               <div className="underline"></div>
-              <h3>Click on Image to View Project</h3>
+              {/* <h3>Click on Image to View Project</h3> */}
             </Title>
           </Container>
           {isLoading && (

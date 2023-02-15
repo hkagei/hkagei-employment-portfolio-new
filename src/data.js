@@ -17,6 +17,7 @@ import Image1 from "./images/book-search.png"
 import Image2 from "./images/budget-tracker.png"
 import Image3 from "./images/workday-scheduler.png"
 
+// import link1 from "https://lit-taiga-11377.herokuapp.com/"
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/DSC_1869.jpg";
@@ -95,6 +96,9 @@ export const skillData = [
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 export const resume = "https://docs.google.com/document/d/1Lz00IcBKyE825MLFjwkKV9vcuqMO03wjbSkb55CtVJI/";
+export const link1 = "https://lit-taiga-11377.herokuapp.com/";
+export const link2 = "https://guarded-garden-74034.herokuapp.com/";
+export const link3 = "https://hkagei.github.io/workday-scheduler/";
 
 /* Projects
  ************************************************************** 
@@ -107,17 +111,17 @@ export const projectCardImages = [
   {
     name: "MERN-Challenge",
     image: Image1,
-    link: "https://lit-taiga-11377.herokuapp.com/"
+    imageURL: link1
   },
   {
     name: "Hiros-budget-tracker",
     image: Image2,
-    link: "https://guarded-garden-74034.herokuapp.com/"
+    imageURL: link2
   },
   {
     name: "workday-scheduler",
     image: Image3,
-    link: "https://hkagei.github.io/workday-scheduler/"
+    imageURL: link3
   }
 ];
 

@@ -23,11 +23,11 @@ const StyledCardComponent = styled.div`
   }
 `;
 
-export default function StyledCard({ theme, image, name, description, Repourl, url }) {
+export default function StyledCard({ theme, image, name, description, imageURL, url }) {
   return (
     <StyledCardComponent>
       <Card bg={theme === "light" ? "white" : "dark"}>
-        <Card.Img
+        <Card.Img href={imageURL}
           variant="top"
           src={image ? image : GH}
           alt={name}
@@ -42,6 +42,11 @@ export default function StyledCard({ theme, image, name, description, Repourl, u
             {"View on GitHub "}
             <FaGithub />
           </Card.Link>
+          <div>
+          <Card.Link href={imageURL}>
+            {"View Deployment"}
+          </Card.Link>
+          </div>
         </Card.Footer>
       </Card>
     </StyledCardComponent>
