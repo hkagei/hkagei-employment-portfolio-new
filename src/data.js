@@ -96,32 +96,30 @@ export const skillData = [
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 export const resume = "https://docs.google.com/document/d/1Lz00IcBKyE825MLFjwkKV9vcuqMO03wjbSkb55CtVJI/";
-export const link1 = "https://lit-taiga-11377.herokuapp.com/";
-export const link2 = "https://guarded-garden-74034.herokuapp.com/";
-export const link3 = "https://hkagei.github.io/workday-scheduler/";
-
+// export const projectURL = ["https://lit-taiga-11377.herokuapp.com/", "https://guarded-garden-74034.herokuapp.com/", "https://hkagei.github.io/workday-scheduler/"]
 /* Projects
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
 export const filteredProjects = ["workday-scheduler", "MERN-Challenge", "Hiros-budget-tracker"];
 
+
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
   {
     name: "MERN-Challenge",
     image: Image1,
-    imageURL: <fa href="https://lit-taiga-11377.herokuapp.com/"></fa>
+    homepage: "https://lit-taiga-11377.herokuapp.com/",
   },
   {
     name: "Hiros-budget-tracker",
     image: Image2,
-    imageURL: <fa href="https://guarded-garden-74034.herokuapp.com/"></fa>
+    homepage: "https://guarded-garden-74034.herokuapp.com/",
   },
   {
     name: "workday-scheduler",
     image: Image3,
-    imageURL: <fa href="https://hkagei.github.io/workday-scheduler/"></fa>
+    homepage: "https://hkagei.github.io/workday-scheduler/",
   }
 ];
 

@@ -11,6 +11,8 @@ import { Element } from "react-scroll";
 import styled from "styled-components";
 // Data
 import { filteredProjects } from "../data";
+
+
 // Icons
 import { FaGithub } from "react-icons/fa";
 // Components
@@ -53,7 +55,6 @@ export default function Projects() {
             <Title>
               <h2>Projects</h2>
               <div className="underline"></div>
-              {/* <h3>Click on Image to View Project</h3> */}
             </Title>
           </Container>
           {isLoading && (
@@ -76,7 +77,7 @@ export default function Projects() {
                   name,
                   description,
                   html_url,
-                  imageURL,
+                  homepage,
                 }) {
                   return (
                     <Col key={id}>
@@ -86,7 +87,7 @@ export default function Projects() {
                         name={name}
                         description={description}
                         url={html_url}
-                        imageURL={imageURL}
+                        homepage={homepage}
                       />
                     </Col>
                   );

@@ -6,6 +6,7 @@ import { FaGithub } from "react-icons/fa";
 import GH from "../images/GH.svg";
 // Components
 import { Card } from "react-bootstrap";
+// import { Link } from "react-router-dom";
 
 const StyledCardComponent = styled.div`
   .card-footer {
@@ -23,7 +24,7 @@ const StyledCardComponent = styled.div`
   }
 `;
 
-export default function StyledCard({ theme, image, name, description, imageURL, url }) {
+export default function StyledCard({ theme, image, name, description, url, homepage }) {
   return (
     <StyledCardComponent>
       <Card bg={theme === "light" ? "white" : "dark"}>
@@ -43,8 +44,8 @@ export default function StyledCard({ theme, image, name, description, imageURL, 
             <FaGithub />
           </Card.Link>
           <div>
-          <Card.Link href={imageURL}>
-            {"View Deployment"}
+          <Card.Link href={homepage}>
+            {"View Project"}
           </Card.Link>
           </div>
         </Card.Footer>
