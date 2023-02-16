@@ -17,8 +17,6 @@ import Image1 from "./images/book-search.png"
 import Image2 from "./images/budget-tracker.png"
 import Image3 from "./images/workday-scheduler.png"
 
-// import link1 from "https://lit-taiga-11377.herokuapp.com/"
-
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/DSC_1869.jpg";
 import HeroDark from "./images/DSC_8740.jpg";
@@ -96,12 +94,12 @@ export const skillData = [
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 export const resume = "https://docs.google.com/document/d/1Lz00IcBKyE825MLFjwkKV9vcuqMO03wjbSkb55CtVJI/";
-// export const projectURL = ["https://lit-taiga-11377.herokuapp.com/", "https://guarded-garden-74034.herokuapp.com/", "https://hkagei.github.io/workday-scheduler/"]
+
 /* Projects
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["workday-scheduler", "MERN-Challenge", "Hiros-budget-tracker"];
+export const filteredProjects = ["workday-scheduler", "MERN-Challenge", "Hiros-budget-tracker", "SQL-employee-tracker", "hkagei-new-employment-portfolio"];
 
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
@@ -109,17 +107,22 @@ export const projectCardImages = [
   {
     name: "MERN-Challenge",
     image: Image1,
-    homepage: "https://lit-taiga-11377.herokuapp.com/",
   },
   {
     name: "Hiros-budget-tracker",
     image: Image2,
-    homepage: "https://guarded-garden-74034.herokuapp.com/",
   },
   {
     name: "workday-scheduler",
     image: Image3,
-    homepage: "https://hkagei.github.io/workday-scheduler/",
+  },
+  {
+    name: "SQL-employee-tracker",
+    image: "",
+  },
+  {
+    name: "hkagei-new-employment-portfolio",
+    image: "",
   }
 ];
 

@@ -14,9 +14,10 @@ import { filteredProjects } from "../data";
 
 
 // Icons
-import { FaGithub } from "react-icons/fa";
+// import { FaGithub } from "react-icons/fa";
 // Components
-import { Button, Col, Container, Row } from "react-bootstrap";
+// import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import { Title, Loading } from "./globalStyledComponents";
 import StyledCard from "./StyledCard";
 
@@ -93,17 +94,17 @@ export default function Projects() {
                   );
                 })}
               </Row>
-              {data.length > 3 && (
+              {data.length > 5 && (
                 <Container className="text-center mt-5">
                   <Link to="/All-Projects">
-                    <Button
+                    {/* <Button
                       size="lg"
                       variant={
                         theme === "light" ? "outline-dark" : "outline-light"
                       }
                     >
                       All <FaGithub /> Projects
-                    </Button>
+                    </Button> */}
                   </Link>
                 </Container>
               )}
