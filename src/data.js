@@ -17,7 +17,7 @@ import Image1 from "./images/book-search.png"
 import Image2 from "./images/budget-tracker.png"
 import Image3 from "./images/workday-scheduler.png"
 import Image4 from "./images/employee-tracker.png"
-import Image5 from "./images/just-tech-news.png"
+import Image5 from "./images/auto-loan-calculator.png"
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/DSC_1869.jpg";
@@ -101,7 +101,7 @@ export const resume = "https://docs.google.com/document/d/1Lz00IcBKyE825MLFjwkKV
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["workday-scheduler", "MERN-Challenge", "Hiros-budget-tracker", "SQL-employee-tracker", "python-newsfeed"];
+export const filteredProjects = ["workday-scheduler", "MERN-Challenge", "Hiros-budget-tracker", "SQL-employee-tracker", "hiros-autoloan-calculator"];
 
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
@@ -123,7 +123,7 @@ export const projectCardImages = [
     image: Image4,
   },
   {
-    name: "python-newsfeed",
+    name: "hiros-autoloan-calculator",
     image: Image5,
   }
 ];
