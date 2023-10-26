@@ -6,7 +6,6 @@ import {
   FaReact,
   FaGitAlt,
   FaGithubSquare,
-  // FaLinkedIn,
   FaLinkedin,
 } from "react-icons/fa";
 import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
@@ -40,7 +39,7 @@ export const Blog = <FaLinkedin />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "As an innovative problem solver passionate about building websites and developing apps, I have a focus on mobile-first design and development. With each project, my aim is to best engage my audience for an impactful user experience.";
+  "As an innovative problem solver passionate about building websites and developing apps, I have a focus on mobile-first design and development, strong analytical skills, and a deep commitment to leveraging data analytics to enhance user experiences. With each project, my aim is to best engage my audience by harnessing the power of data-driven insights for a more impactful user experience.";
 
 /* Skills
  ************************************************************** 
