@@ -91,6 +91,21 @@ export const skillData = [
     skill: <FaGithubSquare className="display-4" />,
     name: "GitHub",
   },
+  {
+    id: 10,
+    skill: <FaGithubSquare className="display-4" />,
+    name: "Tableau",
+  },
+  {
+    id: 11,
+    skill: <FaGithubSquare className="display-4" />,
+    name: "R",
+  },
+  {
+    id: 12,
+    skill: <FaGithubSquare className="display-4" />,
+    name: "Python",
+  },
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
